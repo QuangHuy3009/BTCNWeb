@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<Style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+</Style>
+<body>  
+    <div class="doimau" style="height: 100vh";>
+        <input type="text" class="text">
+        <button onclick="doi()">Đổi màu</button>    
+    </div>
+       
+    <script>
+       function doi() {
+        var inputElement = document.querySelector(".text");     
+        var windowElement=document.querySelector(".doimau");
+        windowElement.style.background= inputElement.value;       
+        
+       }
+    </script>
+</body>
+</html>

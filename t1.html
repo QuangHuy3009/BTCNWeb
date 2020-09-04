@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+   <div class="app">
+    <header class="header"> 
+       <div class="grid wide">            
+                <p class="header__text">
+                    Quản Lý Sinh Viên
+                </p>
+            </div>             
+    </header>
+    <div class="container">
+        <div class="grid wide">
+            <div class="grid__row app__content">
+                <div class="grid__column-2">
+                    <nav class="category">
+                        <h3 class="category__heading">
+                            <a href="/index.html" class="category-item__link">Trang Chủ</a>
+                        </h3>
+                          <ul class="category-list">
+                              <li class="category-item">
+                                  <a href="/t1.html" class="category-item__link" style="color:red">Mục 1</a>
+                              </li>
+                              <li class="category-item">
+                                  <a href="/t2.html" class="category-item__link">Mục 2</a>
+                              </li>
+                              <li class="category-item">
+                                  <a href="" class="category-item__link">Mục 3</a>
+                              </li>
+                          </ul>
+                      </nav>
+                </div>
+                <div class="grid__column-8">
+                    <div class="auth-form1">
+                        <form action="" method="POST" class="form" id="form-1">
+                            <h3 class="heading">Đăng Nhập </h3>         
+                            <div class="spacer"></div>     
+                                <div class="form-group">
+                              <label for="email" class="form-label">User</label>
+                              <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                              <span class="form-message"></span>
+                            </div>                        
+                            <div class="form-group">
+                              <label for="password" class="form-label">Mật khẩu</label>
+                              <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                              <span class="form-message"></span>
+                            </div>       
+                            <div class="btn-group">
+                                <button class="form-btn">Đăng nhập</button>
+                                <button class="form-btn">Reset</button>
+                                <button class="form-btn">Cancel</button>
+                            </div>  
+                        </form>                                     
+                    </div>                      
+                     </div>
+                <div class="grid__column-2">
+                    <nav class="box">
+                     <h3>Ở đây là hình ảnh và Flash </h3> 
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>  
+    </div>
+    <footer class="footer">     
+        
+        <div class="doimau" style="height: 100vh";>
+                  <input type="text" class="text">
+                  <button onclick="doi()">Đổi màu</button>    
+          </div>
+          </div>
+      </div>           
+  </div>
+
+  <script>
+     function doi() {
+      var inputElement = document.querySelector(".text");     
+      var windowElement=document.querySelector(".doimau");
+      windowElement.style.background= inputElement.value;       
+      
+     }
+  </script>
+</footer>
+
+ 
+</body>
+</html>

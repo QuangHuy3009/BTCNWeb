@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+   <div class="app">
+    <header class="header"> 
+       <div class="grid wide">            
+                <p class="header__text">
+                    Quản Lý Sinh Viên
+                </p>
+            </div>             
+    </header>
+    <div class="container">
+        <div class="grid wide">
+            <div class="grid__row app__content">
+                <div class="grid__column-2">
+                    <nav class="category">
+                      <h3 class="category__heading">
+                        <a href="/index.html" class="category-item__link">Trang Chủ</a>
+                    </h3>
+                      <ul class="category-list">
+                          <li class="category-item">
+                              <a href="/t1.html" class="category-item__link">Mục 1</a>
+                          </li>
+                          <li class="category-item">
+                              <a href="/t2.html" class="category-item__link" style="color:red">Mục 2</a>
+                          </li>
+                              <li class="category-item">
+                                  <a href="" class="category-item__link">Mục 3</a>
+                              </li>
+                          </ul>
+                      </nav>
+                </div>
+                <div class="grid__column-8">                 
+          
+                    <div class="auth-form3">
+                        <form action="" method="POST" class="form" id="form-3">
+                            <h3 class="heading"> Thông Tin Sinh Viên </h3>         
+                            <div class="spacer"></div>     
+                              <div class="form-group">
+                              <label for="id" class="form-label">Mã Số Sinh viên</label>
+                              <input id="id"  type="text"  class="form-control">              
+                            </div>        
+                            <div class="form-group">
+                              <label for="name" class="form-label">Họ tên Sinh viên</label>
+                              <input id="name"  type="text"  class="form-control">              
+                            </div>   
+                            <div class="form-group">
+                              <label for="Nam"><span>Nam</span></label>
+                              <input id="Nam"type="radio" name="hobby" value="Nam" class="form-control" />       
+                              <label for="Nữ"><span>Nữ</span></label>
+                              <input id="Nữ"type="radio" name="hobby" value="Nữ" class="form-control" />    
+                            </div>   
+                            <div class="form-group">
+                              <label for="day" class="form-label">Ngày</label>
+                              <input id="day"  type="text"  class="form-control">              
+                            </div>   
+                            <div class="form-group">
+                              <label for="month" class="form-label">Tháng</label>
+                              <select size="1" class="form-control">
+                                <option>Tháng 1</option>
+                                <option>Tháng 2</option>
+                                <option>Tháng 3</option>
+                                <option>Tháng 4</option>
+                                <option>Tháng 5</option>
+                                <option>Tháng 6</option>
+                                <option>Tháng 7</option>
+                                <option>Tháng 8</option>
+                                <option>Tháng 9</option>
+                                <option>Tháng 10</option>
+                                <option>Tháng 11</option>
+                                <option>Tháng 12</option>
+                                </select>              
+                            </div>    
+                            <div class="form-group">
+                              <label for="year" class="form-label">Năm</label>
+                              <select size="1" class="form-control">
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                </select>              
+                            </div>
+                            <h2>Sở Thích </h2>
+                            <div class="form-group">
+                              <label for="Shopping"><span>Shopping</span></label>
+                              <input id="Shopping"type="checkbox" name="hobby" value="Shopping" class="form-control" />       
+                              <label for="Sport"><span>Sport</span></label>
+                              <input id="Sport"type="checkbox" name="hobby" value="Sport" class="form-control" />                  
+                              <label for="All"><span>All</span></label>
+                              <input id="All"type="checkbox" name="hobby" value="All" class="form-control" />     
+                            </div>
+                          
+                            <div class="btn-group">
+                                <button class="form-btn">Submit</button>
+                                <button class="form-btn">Reset</button>
+                                <button class="form-btn">Exit</button>                   
+                            </div>      
+                            
+                          </form>
+                    </div>
+                </div>
+                <div class="grid__column-2">
+                    <nav class="box">
+                     <h3>Ở đây là hình ảnh và Flash </h3> 
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>  
+    </div>
+    <footer class="footer">     
+
+        <div class="doimau" style="height: 100vh";>
+                  <input type="text" class="text">
+                  <button onclick="doi()">Đổi màu</button>    
+          </div>
+          </div>
+      </div>           
+  </div>
+
+  <script>
+     function doi() {
+      var inputElement = document.querySelector(".text");     
+      var windowElement=document.querySelector(".doimau");
+      windowElement.style.background= inputElement.value;       
+      
+     }
+  </script>
+</footer>
+
+ 
+</body>
+</html>

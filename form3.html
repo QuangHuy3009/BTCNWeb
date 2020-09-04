@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Sinh Viên</title>
+    <link rel="stylesheet" href="/form3.css">
+</head>
+<body>
+    <div class="main">
+        <form action="" method="POST" class="form" id="form-3">
+            <h3 class="heading"> Thông Tin Sinh Viên </h3>         
+            <div class="spacer"></div>     
+              <div class="form-group">
+              <label for="id" class="form-label">Mã Số Sinh viên</label>
+              <input id="id"  type="text"  class="form-control">              
+            </div>        
+            <div class="form-group">
+              <label for="name" class="form-label">Họ tên Sinh viên</label>
+              <input id="name"  type="text"  class="form-control">              
+            </div>   
+            <div class="form-group">
+              <label for="Nam"><span>Nam</span></label>
+              <input id="Nam"type="radio" name="hobby" value="Nam" class="form-control" />       
+              <label for="Nữ"><span>Nữ</span></label>
+              <input id="Nữ"type="radio" name="hobby" value="Nữ" class="form-control" />    
+            </div>   
+            <div class="form-group">
+              <label for="day" class="form-label">Ngày</label>
+              <input id="day"  type="text"  class="form-control">              
+            </div>   
+            <div class="form-group">
+              <label for="month" class="form-label">Tháng</label>
+              <select size="1" class="form-control">
+                <option>Tháng 1</option>
+                <option>Tháng 2</option>
+                <option>Tháng 3</option>
+                <option>Tháng 4</option>
+                <option>Tháng 5</option>
+                <option>Tháng 6</option>
+                <option>Tháng 7</option>
+                <option>Tháng 8</option>
+                <option>Tháng 9</option>
+                <option>Tháng 10</option>
+                <option>Tháng 11</option>
+                <option>Tháng 12</option>
+                </select>              
+            </div>    
+            <div class="form-group">
+              <label for="year" class="form-label">Năm</label>
+              <select size="1" class="form-control">
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                </select>              
+            </div>
+            <h2>Sở Thích </h2>
+            <div class="form-group">
+              <label for="Shopping"><span>Shopping</span></label>
+              <input id="Shopping"type="checkbox" name="hobby" value="Shopping" class="form-control" />       
+              <label for="Sport"><span>Sport</span></label>
+              <input id="Sport"type="checkbox" name="hobby" value="Sport" class="form-control" />                  
+              <label for="All"><span>All</span></label>
+              <input id="All"type="checkbox" name="hobby" value="All" class="form-control" />     
+            </div>
+          
+            <div class="btn-group">
+                <button class="form-btn">Submit</button>
+                <button class="form-btn">Reset</button>
+                <button class="form-btn">Exit</button>                   
+            </div>      
+            
+          </form>
+    </div>
+  
+</body>
+</html>
